@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#all {
+  background-color: blueviolet;
+  padding: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+#all h1 {
+  position: absolute;
+  font-size: 20px;
+  color: pink;
+}
+#all .box {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 6px solid white;
+  border-top-color: rgb(255, 106, 131);
+  animation: 2s linear 2s MyAnimation infinite;
+  position: relative;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+@keyframes MyAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */
